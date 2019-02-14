@@ -1,0 +1,6 @@
+{
+  "defaultTasks" : {
+    "name": "Do home task",
+    "priority": "low"
+  }
+}

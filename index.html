@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper">
+   Add task: <input type = "text" id="task">
+   <div id="priority">Priority:
+     <input type="radio"  name="priority" value="low" id="lowPriority" checked>
+     <label for="lowPriority">Low</label>
+     <input type="radio" name="priority" value="minor" id="minorPriority">
+     <label for="minorPriority">Minor</label>
+     <input type="radio" name="priority" value="major" id="majorPriority">
+     <label for="majorPriority">Major</label>
+     <input type="radio" name="priority" value="high" id="highPriority">
+     <label for="highPriority">High</label>
+   </div>
+   <button id="add">Add</button>
+    <div id="itemList">
+      <h3>Item list :</h3>
+      <div id="high"></div>
+      <div id="major"></div>
+      <div id="minor"></div>
+      <div id="low"></div>
+    </div>
+  </div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

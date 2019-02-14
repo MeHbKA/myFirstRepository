@@ -1,0 +1,41 @@
+#wrapper {
+  text-align: center;
+}
+
+#itemList button img {
+  width: 100%;
+  height: 100%;
+}
+#itemList button {
+  width: 30px;
+  height: 15px;
+}
+
+#high {
+  color: red;
+}
+
+#major {
+  color: orange;
+}
+
+#minor {
+  color: paleturquoise;
+}
+
+#low {
+  color: green;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: aliceblue;
+}
+
+.checked .edit {
+  display: none;
+}
+
+.checked .remove {
+  display: inline-block;
+}
